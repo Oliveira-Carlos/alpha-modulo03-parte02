@@ -1,0 +1,1 @@
+Demonstrar a utilização de seletores em CSS

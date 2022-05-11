@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    font-family: "verdana";
+    background-color: darkgreen;
+}
+header{
+    color: yellow;
+}
+#titulo{
+    font-size: 220%;
+}
+#subtitulo{
+    font-size: 190%;
+}
+.grupo{
+    border: 1px solid black;
+    display: inline-block;
+    color: darkblue;
+    font-weight: bold;
+}
+.grupo:hover{
+    color: aquamarine;
+}
+.grupo::after{
+    content: '';
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 50%;
+    background-color: blueviolet;
+    margin:0 auto;
+}
+.grupo p{
+    background-color: floralwhite;
+}
